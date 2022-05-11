@@ -1,0 +1,7 @@
+.paragraph {
+    font-size: 1rem;
+    color: brown;
+    &.intro {
+        font-size: 3rem;
+    }
+}
