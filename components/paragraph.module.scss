@@ -1,6 +1,9 @@
+@use '../sass/abstracts/mixins';
+
 .paragraph {
     font-size: 1rem;
-    color: brown;
+    color: black;
+    @include mixins.marginBottom();
     &.intro {
         font-size: 3rem;
     }
